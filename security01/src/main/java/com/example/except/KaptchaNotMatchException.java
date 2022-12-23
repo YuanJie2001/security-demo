@@ -1,4 +1,4 @@
-package com.example.config;
+package com.example.except;
 
 import org.springframework.security.core.AuthenticationException;
 

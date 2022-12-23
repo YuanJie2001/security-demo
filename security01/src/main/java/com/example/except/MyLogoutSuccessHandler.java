@@ -1,4 +1,4 @@
-package com.example.config;
+package com.example.except;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.security.core.Authentication;

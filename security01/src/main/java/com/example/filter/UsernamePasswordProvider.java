@@ -1,13 +1,12 @@
 package com.example.filter;
 
-import com.example.config.KaptchaNotMatchException;
+import com.example.except.KaptchaNotMatchException;
 import com.example.domain.User;
 import com.example.filter.impl.UserDetailServiceImpl;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
